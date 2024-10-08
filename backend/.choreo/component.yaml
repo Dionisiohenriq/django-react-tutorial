@@ -1,1 +1,10 @@
 schemaVersion: 1.0
+
+endpoints:
+- name: "REST API"
+  displayName: Django Api
+  service:
+    basePath: /
+    port: 8000
+  type: REST
+  networkVisibility: Public
